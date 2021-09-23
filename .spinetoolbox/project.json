@@ -1,0 +1,31 @@
+{
+    "project": {
+        "version": 6,
+        "name": "",
+        "description": "",
+        "specifications": {},
+        "connections": [],
+        "jumps": []
+    },
+    "items": {
+        "Input": {
+            "type": "Data Store",
+            "description": "",
+            "x": 36.70842427882101,
+            "y": 3.059035356568418,
+            "url": {
+                "dialect": "sqlite",
+                "username": "",
+                "password": "",
+                "host": "",
+                "port": "",
+                "database": {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/items/input/GA30.sqlite"
+                }
+            },
+            "cancel_on_error": false
+        }
+    }
+}
