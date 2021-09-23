@@ -4,15 +4,36 @@
         "name": "",
         "description": "",
         "specifications": {},
-        "connections": [],
+        "connections": [
+            {
+                "from": [
+                    "Input",
+                    "right"
+                ],
+                "to": [
+                    "Run SpineOpt 1",
+                    "left"
+                ]
+            },
+            {
+                "from": [
+                    "Run SpineOpt 1",
+                    "right"
+                ],
+                "to": [
+                    "Output",
+                    "left"
+                ]
+            }
+        ],
         "jumps": []
     },
     "items": {
         "Input": {
             "type": "Data Store",
             "description": "",
-            "x": 36.70842427882101,
-            "y": 3.059035356568418,
+            "x": -64.14963167587476,
+            "y": -21.1641344383057,
             "url": {
                 "dialect": "sqlite",
                 "username": "",
@@ -23,6 +44,34 @@
                     "type": "path",
                     "relative": true,
                     "path": ".spinetoolbox/items/input/GA30.sqlite"
+                }
+            },
+            "cancel_on_error": false
+        },
+        "Run SpineOpt 1": {
+            "type": "Tool",
+            "description": "",
+            "x": 47.33540515653773,
+            "y": 9.064226519337012,
+            "specification": "Run SpineOpt",
+            "execute_in_work": false,
+            "cmd_line_args": []
+        },
+        "Output": {
+            "type": "Data Store",
+            "description": "",
+            "x": 168.19175874769795,
+            "y": -24.17127071823204,
+            "url": {
+                "dialect": "sqlite",
+                "username": "",
+                "password": "",
+                "host": "",
+                "port": "",
+                "database": {
+                    "type": "path",
+                    "relative": true,
+                    "path": ".spinetoolbox/items/output/Output.sqlite"
                 }
             },
             "cancel_on_error": false
