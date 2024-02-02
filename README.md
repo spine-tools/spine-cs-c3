@@ -1,4 +1,5 @@
 # Spine Case Study C3
+** This repository is archived and no longer maintained. You may run into issues.**
 
 Integrated energy system planning with high operational detail
 
